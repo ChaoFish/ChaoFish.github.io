@@ -13,6 +13,10 @@ header {
   flex: 1;
   text-align: center;
   background-color: #f0f1f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .profile {
   display: inline-flex;
@@ -41,6 +45,7 @@ header {
 }
 .motto {
   text-align: center;
+  margin-top: 30px;
 }
 
 section {
