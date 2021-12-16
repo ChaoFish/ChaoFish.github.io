@@ -50,4 +50,23 @@ header {
 
 section {
   flex: 3;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.articles {
+  flex: 1;
+  overflow: auto;
+}
+.article {
+  background-color: #f0f1f2;
+  padding: 10px;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.article-date {
+  text-align: right;
+  font-size: 4px;
 }
