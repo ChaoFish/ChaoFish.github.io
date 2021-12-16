@@ -96,3 +96,12 @@ a {
 img {
   width: 100%;
 }
+
+.tags {
+  display: flex;
+}
+.tag {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 8px;
+}

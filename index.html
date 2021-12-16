@@ -6,6 +6,13 @@ layout: default
   {% for post in site.posts %}
     <div class="article">
       <div class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      {% if page.tags %}
+        <div class="tags">
+          {% for tag in page.tags %}
+            <small class="tag"><em>{{ tag }}</em></small>
+          {% endfor %}
+        </div>
+      {% endif %}
       <div class="article-date">{{ post.date | date: "%-d %B %Y" }}</div>
     </div>
   {% endfor %}
