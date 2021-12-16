@@ -97,11 +97,22 @@ img {
   width: 100%;
 }
 
-.tags {
+.post-tags,
+.page-tags {
   display: flex;
 }
-.tag {
-  background-color: #ffffff;
+.post-tags {
+  margin-top: 10px;
+}
+.post-tag,
+.page-tag {
   border-radius: 20px;
   padding: 4px 8px;
+  margin-right: 12px;
+}
+.post-tag {
+  background-color: #ffffff;
+}
+.page-tag {
+  background-color: #f0f1f2;
 }
