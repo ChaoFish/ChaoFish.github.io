@@ -53,6 +53,7 @@ section {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .articles {
   flex: 1;
