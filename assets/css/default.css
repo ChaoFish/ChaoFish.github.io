@@ -120,3 +120,7 @@ img {
 .page-tag {
   background-color: #f0f1f2;
 }
+
+ul {
+  margin-block-start: 0;
+}
