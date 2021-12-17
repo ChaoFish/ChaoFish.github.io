@@ -124,3 +124,9 @@ img {
 ul {
   margin-block-start: 0;
 }
+
+.language-plaintext {
+  background-color: #f0f1f2;
+  padding: 2px 10px;
+  line-height: 20px;
+}
