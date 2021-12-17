@@ -104,6 +104,9 @@ img {
 .post-tags {
   margin-top: 10px;
 }
+.page-tags {
+  margin-top: 30px;
+}
 .post-tag,
 .page-tag {
   border-radius: 20px;
