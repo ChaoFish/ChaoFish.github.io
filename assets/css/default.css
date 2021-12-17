@@ -96,6 +96,8 @@ a {
 }
 img {
   width: 100%;
+  object-fit: contain;
+  object-position: 0 0;
 }
 
 .post-tags,
