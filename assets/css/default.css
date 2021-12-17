@@ -81,6 +81,7 @@ section {
 .article {
   background-color: #f0f1f2;
   padding: 10px;
+  margin-bottom: 20px;
 }
 .article-title {
   font-weight: bold;
