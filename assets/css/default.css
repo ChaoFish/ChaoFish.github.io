@@ -142,4 +142,9 @@ ul {
 
 .arrow.right {
   transform: rotate(-45deg);
+  margin: 0 4px;
+}
+
+.navigation small {
+  vertical-align: middle;
 }
